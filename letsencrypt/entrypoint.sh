@@ -6,6 +6,6 @@ pwd
 
 ls
 
-./certbot-auto --nginx certonly --webroot -w /usr/share/nginx/html -d www.freightpilot.eu
+./certbot-auto --nginx -d www.freightpilot.eu
 
 ls
