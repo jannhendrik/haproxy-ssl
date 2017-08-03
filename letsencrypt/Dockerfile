@@ -40,9 +40,6 @@ COPY index.html /usr/share/nginx/html
 COPY nginx.conf /etc/nginx
 COPY mime.types /etc/nginx
 
-COPY server.pem /usr/local/nginx/conf/
-COPY server.key /usr/local/nginx/conf/
-
 RUN wget https://dl.eff.org/certbot-auto && chmod a+x certbot-auto
 
 # debug log
