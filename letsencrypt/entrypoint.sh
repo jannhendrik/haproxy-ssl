@@ -6,7 +6,8 @@ echo $HAPROXY_PORT_80_TCP_ADDR " haproxy"
 echo $HAPROXY_PORT_80_TCP_ADDR " haproxy"
 echo $HAPROXY_PORT_80_TCP_ADDR " haproxy" >> /etc/hosts
 
-./certbot-auto certonly --standalone -d www.freightpilot.eu
+# Generate certificates
+./certbot-auto certonly --standalone -d www.freightpilot.eu --noninteractive --agree-tos --email jan.hendrik.telke@freightpilot.de
 
 ls
 # Copy new certs and copy new nginx.conf
