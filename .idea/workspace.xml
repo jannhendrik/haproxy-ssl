@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d26ec8-d19a-4c0c-886f-b7f489a754b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letsencrypt/Dockerfile" afterPath="$PROJECT_DIR$/letsencrypt/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letsencrypt/entrypoint.sh" afterPath="$PROJECT_DIR$/letsencrypt/entrypoint.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letsencrypt/nginx.conf" afterPath="$PROJECT_DIR$/letsencrypt/nginx.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +25,8 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letsencrypt/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="420">
+              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -43,8 +45,8 @@
       <file leaf-file-name="entrypoint.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letsencrypt/entrypoint.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,8 +75,8 @@
       <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/letsencrypt/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="495">
+              <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -112,8 +114,8 @@
         <option value="$PROJECT_DIR$/letsencrypt/mime.types" />
         <option value="$PROJECT_DIR$/letsencrypt/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/letsencrypt/entrypoint.sh" />
         <option value="$PROJECT_DIR$/letsencrypt/Dockerfile" />
+        <option value="$PROJECT_DIR$/letsencrypt/entrypoint.sh" />
         <option value="$PROJECT_DIR$/letsencrypt/nginx.conf" />
       </list>
     </option>
@@ -525,26 +527,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx-gen/generate.py" />
-    <entry file="file://$PROJECT_DIR$/letsencrypt/entrypoint.sh">
+    <entry file="file://$PROJECT_DIR$/letsencrypt/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letsencrypt/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/letsencrypt/entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/letsencrypt/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="495">
+          <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
           <folding />
         </state>
       </provider>
