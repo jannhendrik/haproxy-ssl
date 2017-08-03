@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7d26ec8-d19a-4c0c-886f-b7f489a754b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letsencrypt/Dockerfile" afterPath="$PROJECT_DIR$/letsencrypt/Dockerfile" />
-    </list>
+    <list default="true" id="e7d26ec8-d19a-4c0c-886f-b7f489a754b5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
