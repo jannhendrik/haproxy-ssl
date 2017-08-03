@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo haproxy-dev.lan-dev.9b18fe1e.svc.dockerapp.io " haproxy" >> /etc/hosts
+echo $HAPROXY_DEV_1_PORT_443_TCP_ADDR " haproxy" >> /etc/hosts
 
 nginx
 

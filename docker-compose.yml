@@ -1,0 +1,4 @@
+letsencrypt:
+  environment:
+    -DOMAIN: www.freightpilot.eu
+    -EMAIL: jan.hendrik.telke@gmail.com
