@@ -50,6 +50,7 @@ RUN wget https://dl.eff.org/certbot-auto && chmod a+x certbot-auto
 
 VOLUME /ssl
 EXPOSE 80
+EXPOSE 443
 
 RUN chmod +x entrypoint.sh
 
