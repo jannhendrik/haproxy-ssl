@@ -11,16 +11,7 @@ ENV NGINX_VERSION 1.12.1-1~jessie
 ###
 
 # prerequisites
-RUN \
-  # install prerequisites for node
-  apt-get -y update  && \
-  apt-get -y install git && \
-  apt-get -y install curl && \
-
-  # install node
-  curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
-  apt-get -y install nodejs && \
-  apt-get -y install wget
+RUN apt-get -y update  && apt-get -y install git && apt-get -y install curl && curl -sL https://deb.nodesource.com/setup_6.x | bash - && apt-get -y install nodejs && apt-get -y install wget
 
 RUN \
     apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62 && \
@@ -48,6 +39,9 @@ RUN \
 COPY index.html /usr/share/nginx/html
 COPY nginx.conf /etc/nginx
 COPY mime.types /etc/nginx
+
+COPY server.pem /usr/local/nginx/conf/
+COPY server.key /usr/local/nginx/conf/
 
 RUN wget https://dl.eff.org/certbot-auto && chmod a+x certbot-auto
 
