@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-echo $HAPROXY_DEV_1_PORT_443_TCP_ADDR " haproxy" >> /etc/hosts
+echo $HAPROXY_PORT_80_TCP_ADDR " haproxy" >> /etc/hosts
+echo $HAPROXY_PORT_80_TCP_ADDR " haproxy"
+echo $HAPROXY_PORT_80_TCP_ADDR " haproxy"
 
 nginx
 
