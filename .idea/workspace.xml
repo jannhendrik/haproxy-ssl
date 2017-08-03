@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7d26ec8-d19a-4c0c-886f-b7f489a754b5" name="Default" comment="" />
+    <list default="true" id="e7d26ec8-d19a-4c0c-886f-b7f489a754b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letsencrypt/nginx.conf" afterPath="$PROJECT_DIR$/letsencrypt/nginx.conf" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,7 +20,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/letsencrypt/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
@@ -68,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/letsencrypt/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="435">
+              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -110,9 +112,9 @@
         <option value="$PROJECT_DIR$/letsencrypt/mime.types" />
         <option value="$PROJECT_DIR$/letsencrypt/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/letsencrypt/nginx.conf" />
         <option value="$PROJECT_DIR$/letsencrypt/entrypoint.sh" />
         <option value="$PROJECT_DIR$/letsencrypt/Dockerfile" />
+        <option value="$PROJECT_DIR$/letsencrypt/nginx.conf" />
       </list>
     </option>
   </component>
@@ -523,14 +525,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx-gen/generate.py" />
-    <entry file="file://$PROJECT_DIR$/letsencrypt/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/letsencrypt/entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -543,6 +537,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letsencrypt/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding />
         </state>
       </provider>
