@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d26ec8-d19a-4c0c-886f-b7f489a754b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/letsencrypt/nginx.conf" afterPath="$PROJECT_DIR$/letsencrypt/nginx.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
